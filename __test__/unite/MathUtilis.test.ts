@@ -1,4 +1,4 @@
-import { randomInt } from "../../utils";
+import { randomInt } from "../../src/MathUtils";
 let max = 1000;
 let min = 1;
 let a = randomInt({ min, max });
