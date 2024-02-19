@@ -1,3 +1,5 @@
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=adnenre_Typescript-TDD)](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD)
+
 # Test-Driven Development (TDD) with Typescript
 
 Welcome to our project! In this README, we'll introduce you to Test-Driven Development (TDD) and explain how it plays a crucial role in our development process.
