@@ -8,7 +8,7 @@
     "coverage": "jest --coverage"
   },
   "keywords": [],
-  "author": "",
+  "author": "adnen rebai",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.12",
