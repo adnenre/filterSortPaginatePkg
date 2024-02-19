@@ -66,7 +66,9 @@ export class StringUtils {
   ): string {
     let result = str.split("");
     for (let i = 0; i <= result.length; i++) {
-      result[i] === searchValue ? (result[i] = replaceValue) : null;
+      if (result[i] === searchValue) {
+        result[i] = replaceValue;
+      }
     }
     return result.join("");
   }
