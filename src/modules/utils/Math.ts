@@ -1,3 +1,4 @@
+import crypto from "crypto";
 /**
  * Interface representing a range of numbers.
  * @interface
@@ -28,9 +29,8 @@ class MathUtils {
     if (args.min === args.max) return args.max;
 
     const range = args.max - args.min + 1;
-    const randomArray = new Uint32Array(1);
-    window.crypto.getRandomValues(randomArray);
-    const randomNumber = randomArray[0] / (0xffffffff + 1);
+    const randomBuffer = crypto.randomBytes(4);
+    const randomNumber = randomBuffer.readUInt32LE(0) / (0xffffffff + 1);
 
     return Math.floor(randomNumber * range) + args.min;
   };
