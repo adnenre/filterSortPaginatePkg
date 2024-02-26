@@ -26,7 +26,13 @@ class MathUtils {
    */
   static random = (args: RandomRange): number => {
     if (args.min === args.max) return args.max;
-    return Math.floor(Math.random() * (args.max - args.min + 1) + args.min);
+
+    const range = args.max - args.min + 1;
+    const randomArray = new Uint32Array(1);
+    window.crypto.getRandomValues(randomArray);
+    const randomNumber = randomArray[0] / (0xffffffff + 1);
+
+    return Math.floor(randomNumber * range) + args.min;
   };
 
   /**

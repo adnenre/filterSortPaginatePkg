@@ -12,8 +12,8 @@ export namespace U {
   export type Stack<T> = S<T>;
   export type Queue<T> = Q<T>;
 
-  export const Array = ArrayUtils;
-  export const Math = MathUtils;
+  export const Arr = ArrayUtils;
+  export const math = MathUtils;
   export const Str = StringUtils;
   export const Obj = ObjectUtils;
   export const Stack = S;
