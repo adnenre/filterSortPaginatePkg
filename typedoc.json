@@ -1,0 +1,6 @@
+{
+  "out": "docs",
+  "entryPoints": ["./src", "./src/modules/utils/Array.ts"],
+  "exclude": ["node_modules", "coverage"],
+  "theme": "default"
+}
