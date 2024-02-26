@@ -1,1 +1,1 @@
-export { default as U } from "@/modules";
+export { U } from "@/modules";
