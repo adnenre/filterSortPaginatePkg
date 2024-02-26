@@ -1,6 +1,14 @@
-/* The ArrayUtils class in TypeScript provides a static method to map elements of an array to a new
-array based on a given mapping function. */
-class ArrayUtils extends Array<string> {
+/* The `ArrayUtils` class in TypeScript extends the built-in `Array` class and provides static utility
+methods for working with arrays. The `map` method defined within the `ArrayUtils` class is a static
+method that takes an array `arr` of type `T` and a `mapper` function that transforms each element of
+the array. */
+class ArrayUtils<T> {
+  private array: T[];
+
+  constructor(...items: T[]) {
+    this.array = [...items];
+  }
+
   static map<T, U>(arr: T[], mapper: (item: T) => U): U[] {
     const result: U[] = [];
     for (const item of arr) {
