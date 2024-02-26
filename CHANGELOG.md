@@ -13,3 +13,10 @@
 
 - Implemente tests using TDD [ArrayUtils/ObjectUtils/StringUtils]
 - Implemente module [ArrayUtils/ObjectUtils/StringUtils]
+
+## [Version 1.2.0] - 19-02-2024
+
+### Implement
+
+- Implemente tests using TDD [Queue/Stack/Math]
+- Implemente module [Queue/Stack/Math]
