@@ -1,13 +1,21 @@
 {
   "name": "typescript-tdd",
   "version": "1.2.0",
-  "description": "",
+  "description": "workshop utility  for testing TypeScript code using TDD approach.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adnenre/Typescript-TDD"
+  },
+  "keywords": [
+   
+    "Typescript",
+    "Test Driven Development"
+  ],
   "author": "adnen rebai",
   "license": "ISC",
   "devDependencies": {
