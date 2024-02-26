@@ -1,4 +1,4 @@
-import U from "@/modules";
+import { U } from "@/modules";
 
 describe("ObjectUtils", () => {
   it("should deep copy an object", () => {

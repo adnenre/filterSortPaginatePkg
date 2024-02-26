@@ -1,5 +1,4 @@
-import U from "@/modules";
-
+import { U } from "@/modules";
 describe("🚀 StringUtils 🚀", () => {
   it("should concatenate two strings", () => {
     expect(U.Str.concatenate("Hello", "World")).toBe("HelloWorld");

@@ -1,5 +1,4 @@
-import U from "@/modules";
-
+import { U } from "@/modules";
 describe("ArrayUtils", () => {
   describe("map", () => {
     it("should map array elements", () => {
