@@ -1,5 +1,5 @@
 // stringUtils.ts
-export class StringUtils {
+class StringUtils extends String {
   /**
    * The `concatenate` function in TypeScript concatenates two strings and returns the result.
    * @param {string} a - string
@@ -293,3 +293,5 @@ export class StringUtils {
     return str.split("").reverse().join("");
   }
 }
+
+export { StringUtils };

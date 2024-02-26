@@ -1,5 +1,5 @@
 // objectUtils.ts
-export class ObjectUtils {
+class ObjectUtils extends Object {
   /**
    * The `deepCopy` function in TypeScript creates a deep copy of an object using JSON parsing and
    * stringifying.
@@ -64,3 +64,5 @@ export class ObjectUtils {
 
   // Add more object utility methods here...
 }
+
+export { ObjectUtils };

@@ -1,8 +1,8 @@
-import { randomInt } from "../../src/MathUtils";
+import U from "@/modules";
 let max = 1000;
 let min = 1;
-let a = randomInt({ min, max });
-let b = randomInt({ min, max });
+let a = U.Math.randomInt({ min, max });
+let b = U.Math.randomInt({ min, max });
 describe("🚀 Get a random number 🚀", () => {
   test("should return a random number less or equal to max", () => {
     expect(a).toBeLessThanOrEqual(max);

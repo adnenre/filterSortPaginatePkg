@@ -1,6 +1,6 @@
 /* The ArrayUtils class in TypeScript provides a static method to map elements of an array to a new
 array based on a given mapping function. */
-export class ArrayUtils {
+class ArrayUtils extends Array<string> {
   static map<T, U>(arr: T[], mapper: (item: T) => U): U[] {
     const result: U[] = [];
     for (const item of arr) {
@@ -56,3 +56,5 @@ export class ArrayUtils {
     return result;
   }
 }
+
+export { ArrayUtils };
