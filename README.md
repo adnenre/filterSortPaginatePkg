@@ -1,4 +1,6 @@
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=adnenre_Typescript-TDD)](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD)
+<h1 style="text-align: center;">Typescript TDD</h1>
+
+**_<p style="text-align: center;"> [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=adnenre_Typescript-TDD)](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD)</p>_**
 
 # Test-Driven Development (TDD) with Typescript
 
@@ -58,13 +60,13 @@ A step-by-step series of examples that tell you how to get a development environ
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/adnenre/Typescript-TDD
    ```
 
 2. Change directory to the project directory:
 
    ```bash
-   cd <project_directory>
+   cd TYPESCRIPT-tdd
    ```
 
 3. Install dependencies:
@@ -81,9 +83,11 @@ Explain how to run the automated tests for this system.
 
 ```bash
 npm test
-# or
-yarn test
 ```
+
+[Documentation](https://adnenre.github.io/Typescript-TDD/docs)
+
+[SonarCloud](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD)
 
 ## Author
 
