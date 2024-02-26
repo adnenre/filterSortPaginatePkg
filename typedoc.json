@@ -1,6 +1,15 @@
 {
+  "$schema": "https://typedoc.org/schema.json",
   "out": "docs",
-  "entryPoints": ["./src", "./src/modules/utils/Array.ts"],
+  "entryPoints": [
+    "./src/index.ts",
+    "./src/modules/utils/Array.ts",
+    "./src/modules/utils/Object.ts",
+    "./src/modules/utils/String.ts",
+    "./src/modules/utils/Math.ts",
+    "./src/modules/utils/Stack.ts",
+    "./src/modules/utils/Queue.ts"
+  ],
   "exclude": ["node_modules", "coverage"],
   "theme": "default"
 }
