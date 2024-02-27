@@ -40,6 +40,9 @@ class MathUtils {
    * @param {number} x - The parameter `x` is a number that represents the value for which you want to
    * calculate the absolute value.
    * @returns The absolute value of the input number `x` is being returned.
+   * @example
+   * const result = MathUtils.abs(-7);
+   * console.log(result); // Output: 7
    */
   static abs(x: number): number {
     return Math.abs(x);
@@ -50,6 +53,9 @@ class MathUtils {
    * @param {number} x - The parameter `x` represents the number for which you want to calculate the
    * square root.
    * @returns The square root of the input number `x` is being returned.
+   * @example
+   * const result = MathUtils.sqrt(9);
+   * console.log(result); // Output: 3
    */
   static sqrt(x: number): number {
     return Math.sqrt(x);
@@ -69,6 +75,9 @@ class MathUtils {
    * itself.
    * @returns The `power` function is returning the result of raising the `base` to the power of
    * `exponent` using `Math.pow` method.
+   * @example
+   * const result = MathUtils.power(2,2);
+   * console.log(result); // Output: 4
    */
   static power(base: number, exponent: number): number {
     return Math.pow(base, exponent);
@@ -82,6 +91,9 @@ class MathUtils {
    * triangle.
    * @returns The function `calcHypotenuse` is returning the square root of the sum of the squares of
    * the two input numbers `a` and `b`.
+   * @example
+   * const result = MathUtils.calcHypotenuse(7,24);
+   * console.log(result); // Output: 25
    */
   static calcHypotenuse(a: number, b: number) {
     return MathUtils.sqrt(a * a + b * b);
