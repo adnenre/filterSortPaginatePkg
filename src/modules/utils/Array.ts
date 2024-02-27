@@ -8,7 +8,17 @@ class ArrayUtils<T> {
   constructor(...items: T[]) {
     this.array = [...items];
   }
+  /**
+   * The function `getLength` returns the length of an array in TypeScript.
+   * @returns The `getLength` method is returning the length of the array stored in the object.
+   */
+  public getLength(): number {
+    return this.array.length;
+  }
 
+  public getItems(): T[] {
+    return this.array;
+  }
   static map<T, U>(arr: T[], mapper: (item: T) => U): U[] {
     const result: U[] = [];
     for (const item of arr) {

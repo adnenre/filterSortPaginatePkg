@@ -25,7 +25,7 @@ class MathUtils {
    * const result = MathUtils.random({ min: 0, max: 10 });
    * console.log(result); // Output: Random integer between 0 and 9
    */
-  static random = (args: RandomRange): number => {
+  static getRandomNumber = (args: RandomRange): number => {
     if (args.min === args.max) return args.max;
 
     const range = args.max - args.min + 1;

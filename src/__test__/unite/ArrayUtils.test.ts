@@ -1,5 +1,12 @@
 import { U } from "@/modules";
 describe("ArrayUtils", () => {
+  it("should initialize array property with provided items", () => {
+    const items = [1, 2, 3];
+    const myInstance = new U.Arr(...items);
+
+    expect(myInstance.getLength()).toEqual(items.length);
+    expect(myInstance.getItems()).toEqual(items);
+  });
   describe("map", () => {
     it("should map array elements", () => {
       const numbers = [1, 2, 3];
