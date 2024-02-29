@@ -3,7 +3,7 @@ import crypto from "crypto";
  * Interface representing a range of numbers.
  * @interface
  */
-export interface RandomRange {
+export interface randomRange {
   /**
    * The minimum value of the range.
    * @type {number}
@@ -19,13 +19,13 @@ export interface RandomRange {
 class MathUtils {
   /**
    * Generates a random integer within the specified range.
-   * @param {RandomRange} args - The range of numbers from which to generate a random integer.
+   * @param {randomRange} args - The range of numbers from which to generate a random integer.
    * @returns {number} A random integer within the specified range.
    * @example
    * const result = MathUtils.random({ min: 0, max: 10 });
    * console.log(result); // Output: Random integer between 0 and 9
    */
-  static getRandomNumber = (args: RandomRange): number => {
+  static randomRange = (args: randomRange): number => {
     if (args.min === args.max) return args.max;
 
     const range = args.max - args.min + 1;

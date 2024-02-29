@@ -1,8 +1,8 @@
 import { U } from "@/modules";
 let max = 1000;
 let min = 1;
-let a = U.math.getRandomNumber({ min, max });
-let b = U.math.getRandomNumber({ min, max });
+let a = U.math.randomRange({ min, max });
+let b = U.math.randomRange({ min, max });
 describe("🚀 Get a random number 🚀", () => {
   test("should return a random number less or equal to max", () => {
     expect(a).toBeLessThanOrEqual(max);
@@ -15,8 +15,8 @@ describe("🚀 Get a random number 🚀", () => {
   test("should return a max", () => {
     let max = 1000;
     let min = 1000;
-    let a = U.math.getRandomNumber({ min, max });
-    let b = U.math.getRandomNumber({ min, max });
+    let a = U.math.randomRange({ min, max });
+    let b = U.math.randomRange({ min, max });
     expect(a).toBe(max);
     expect(b).toBeLessThanOrEqual(max);
   });
