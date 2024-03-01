@@ -63,4 +63,11 @@ describe("🚀 StringUtils 🚀", () => {
   it("should repeat a string multiple times", () => {
     expect(U.Str.repeat("Hello", 3)).toBe("HelloHelloHello");
   });
+  it("sould capitalize a string", () => {
+    expect(U.Str.capitalize("hello")).toBe("Hello");
+  });
+
+  it("sould reverse a string", () => {
+    expect(U.Str.reverse("hello")).toBe("olleh");
+  });
 });
