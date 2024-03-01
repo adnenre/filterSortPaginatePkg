@@ -89,6 +89,27 @@ npm test
 
 [SonarCloud](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD)
 
+## usage
+
+```js
+import { U } from "typescript-tdd";
+    let max = 1000;
+    let min = 1;
+
+    // math utils
+    let randomNumber = U.math.RandomRange({ min, max });    //  return number between min and max
+
+    // string utlis
+    let capitalized =  let a = U.Str.capitalize('hello world'); // Hello World
+
+
+     // array utlis
+    const items = [1, 2, 3];
+    const myInstance = new U.Arr(...items);
+    console.log(myInstance.getItems())                            // Output : [1, 2, 3]
+
+```
+
 ## Author
 
 Adnen Rebai
