@@ -1,6 +1,6 @@
 {
   "name": "typescript-tdd",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "workshop utility  for testing TypeScript code using TDD approach.",
   "main": "./dist/src/index.js",
   "typings": "./dist/types/index.d.ts",
