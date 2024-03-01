@@ -1,4 +1,4 @@
-import { U } from "@/modules";
+import { U } from "../../modules";
 let max = 1000;
 let min = 1;
 let a = U.math.RandomRange({ min, max });

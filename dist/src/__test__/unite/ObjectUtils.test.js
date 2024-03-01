@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const modules_1 = require("@/modules");
+const modules_1 = require("../../modules");
 describe("ObjectUtils", () => {
     it("should deep copy an object", () => {
         const obj = { foo: "bar", nested: { baz: "qux" } };

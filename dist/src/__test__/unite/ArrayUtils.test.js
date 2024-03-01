@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const modules_1 = require("@/modules");
+const modules_1 = require("../../modules");
 describe("ArrayUtils", () => {
     it("should initialize array property with provided items", () => {
         const items = [1, 2, 3];

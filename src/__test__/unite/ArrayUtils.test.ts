@@ -1,4 +1,4 @@
-import { U } from "@/modules";
+import { U } from "../../modules";
 describe("ArrayUtils", () => {
   it("should initialize array property with provided items", () => {
     const items = [1, 2, 3];

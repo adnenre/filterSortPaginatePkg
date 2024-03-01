@@ -1,4 +1,4 @@
-import { U } from "@/modules";
+import { U } from "../../modules";
 
 describe("Queue", () => {
   let queue: U.Queue<string>;

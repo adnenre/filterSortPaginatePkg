@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const modules_1 = require("@/modules");
+const modules_1 = require("../../modules");
 let max = 1000;
 let min = 1;
 let a = modules_1.U.math.RandomRange({ min, max });

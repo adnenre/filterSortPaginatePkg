@@ -1,1 +1,1 @@
-export { U } from "@/modules";
+export { U } from "./modules";

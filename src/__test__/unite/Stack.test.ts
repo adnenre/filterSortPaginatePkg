@@ -1,4 +1,4 @@
-import { U } from "@/modules";
+import { U } from "../../modules";
 
 describe("Stack", () => {
   let stack: U.Stack<number>;
