@@ -2,8 +2,10 @@
   "name": "typescript-tdd",
   "version": "1.2.0",
   "description": "workshop utility  for testing TypeScript code using TDD approach.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "coverage": "jest --coverage"
   },
@@ -15,7 +17,10 @@
     "Typescript",
     "Test Driven Development"
   ],
-  "author": "adnen rebai",
+  "author": {
+    "name": "adnen rebai",
+    "email": "adnen.rebai@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.12",
