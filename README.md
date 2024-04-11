@@ -2,6 +2,12 @@
 
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=adnenre_Typescript-TDD&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=adnenre_Typescript-TDD&metric=coverage)](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD) [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=adnenre_Typescript-TDD&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=adnenre_Typescript-TDD&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD) [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=adnenre_Typescript-TDD&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=adnenre_Typescript-TDD&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=adnenre_Typescript-TDD&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=adnenre_Typescript-TDD&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=adnenre_Typescript-TDD)
 
+# [Codecov](https://codecov.io)
+
+<a href="https://codecov.io/gh/adnenre/Typescript-TDD" > 
+ <img src="https://codecov.io/gh/adnenre/Typescript-TDD/graph/badge.svg?token=VZPSCRCY2G"/> 
+ </a>
+
 # Test-Driven Development (TDD) with Typescript
 
 Welcome to our project! In this README, we'll introduce you to Test-Driven Development (TDD) and explain how it plays a crucial role in our development process.
