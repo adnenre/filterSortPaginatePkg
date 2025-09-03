@@ -1,22 +1,15 @@
 # Changelog
 
-## [Version 1.0.0] - 19-02-2024
+## [Version 1.0.0] - 03-09-2025
 
 ### Added
 
 - Initial setup for TypeScript project
 - Basic configuration for Jest testing framework
 
-## [Version 1.1.0] - 19-02-2024
+## [Version 0.1.0] - 03-09-2025
 
 ### Implement
 
-- Implemente tests using TDD [ArrayUtils/ObjectUtils/StringUtils]
-- Implemente module [ArrayUtils/ObjectUtils/StringUtils]
-
-## [Version 1.2.0] - 19-02-2024
-
-### Implement
-
-- Implemente tests using TDD [Queue/Stack/Math]
-- Implemente module [Queue/Stack/Math]
+- Implemente tests
+- Implemente module

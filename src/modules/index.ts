@@ -1,21 +1,33 @@
-import { ArrayUtils } from "./utils/Array";
-import { MathUtils } from "./utils/Math";
-import { StringUtils } from "./utils/String";
-import { ObjectUtils } from "./utils/Object";
-import { Stack as S } from "./utils/Stack";
-import { Queue as Q } from "./utils/Queue";
+import { filter } from "./utils/filter";
+import { paginate } from "./utils/paginate";
+import { sort } from "./utils/sort";
+import { Item } from "../types";
 
-/* This code snippet is using TypeScript syntax to create a namespace named `U`. Within this namespace,
-various utility modules are imported and assigned to properties of the `U` object. Here's a
-breakdown of what each part of the code is doing: */
-export namespace U {
-  export type Stack<T> = S<T>;
-  export type Queue<T> = Q<T>;
-
-  export const Arr = ArrayUtils;
-  export const math = MathUtils;
-  export const Str = StringUtils;
-  export const Obj = ObjectUtils;
-  export const Stack = S;
-  export const Queue = Q;
+/**
+ * The function filters, sorts, and paginates a list of items based on given parameters.
+ * @param {Item[]} items - An array of items to filter, sort, and paginate.
+ * @param {string} query - The `query` parameter is a string used for filtering items based on a search
+ * query.
+ * @param {"price" | "rating"} sortBy - The `sortBy` parameter specifies the property by which the
+ * items should be sorted. It can be either "price" or "rating".
+ * @param {"asc" | "desc"} dir - The `dir` parameter in the `filterSortPaginate` function specifies the
+ * sorting direction, which can be either "asc" for ascending order or "desc" for descending order.
+ * @param {number} page - The `page` parameter specifies the page number for pagination. It indicates
+ * which page of results to retrieve from the filtered and sorted items.
+ * @param {number} pageSize - The `pageSize` parameter specifies the number of items to display on each
+ * page when paginating the results.
+ * @returns The function `filterSortPaginate` is returning an object with two properties: `total` and
+ * `results`. The `total` property contains the total number of items after filtering and sorting,
+ * while the `results` property contains an array of `Item` objects that are paginated based on the
+ * specified page and page size.
+ */
+export function filterSortPaginate(
+  items: Item[],
+  query: string,
+  sortBy: "price" | "rating",
+  dir: "asc" | "desc",
+  page: number,
+  pageSize: number
+): { total: number; results: Item[] } {
+  return paginate(sort(filter(items, query), sortBy, dir), page, pageSize);
 }
